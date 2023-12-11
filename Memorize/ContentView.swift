@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(content: {
+        ZStack(content: {
+            RoundedRectangle(cornerRadius: 12)
+                .strokeBorder(lineWidth:10)
             Text("👻").font(.largeTitle)
         })
         .foregroundStyle(.orange)

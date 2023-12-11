@@ -11,11 +11,12 @@ struct ContentView: View {
     var body: some View {
         ZStack(content: {
             RoundedRectangle(cornerRadius: 12)
-                .strokeBorder(lineWidth:10)
+                .foregroundColor(.white)
+            RoundedRectangle(cornerRadius: 12)
+                .strokeBorder(lineWidth:2)
             Text("👻").font(.largeTitle)
         })
         .foregroundStyle(.orange)
-        .imageScale(.small)
         .padding()
     }
 }

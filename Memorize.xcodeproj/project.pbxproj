@@ -11,9 +11,6 @@
 		57366BFF2B26EED000E8DFD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57366BFE2B26EED000E8DFD5 /* ContentView.swift */; };
 		57366C012B26EED200E8DFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57366C002B26EED200E8DFD5 /* Assets.xcassets */; };
 		57366C042B26EED200E8DFD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57366C032B26EED200E8DFD5 /* Preview Assets.xcassets */; };
-		57366C0E2B26EED200E8DFD5 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57366C0D2B26EED200E8DFD5 /* MemorizeTests.swift */; };
-		57366C182B26EED200E8DFD5 /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57366C172B26EED200E8DFD5 /* MemorizeUITests.swift */; };
-		57366C1A2B26EED200E8DFD5 /* MemorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57366C192B26EED200E8DFD5 /* MemorizeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		57366C002B26EED200E8DFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57366C032B26EED200E8DFD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57366C092B26EED200E8DFD5 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57366C0D2B26EED200E8DFD5 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
 		57366C132B26EED200E8DFD5 /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57366C172B26EED200E8DFD5 /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
-		57366C192B26EED200E8DFD5 /* MemorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				57366BFB2B26EED000E8DFD5 /* Memorize */,
-				57366C0C2B26EED200E8DFD5 /* MemorizeTests */,
-				57366C162B26EED200E8DFD5 /* MemorizeUITests */,
 				57366BFA2B26EED000E8DFD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				57366C032B26EED200E8DFD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		57366C0C2B26EED200E8DFD5 /* MemorizeTests */ = {
-			isa = PBXGroup;
-			children = (
-				57366C0D2B26EED200E8DFD5 /* MemorizeTests.swift */,
-			);
-			path = MemorizeTests;
-			sourceTree = "<group>";
-		};
-		57366C162B26EED200E8DFD5 /* MemorizeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				57366C172B26EED200E8DFD5 /* MemorizeUITests.swift */,
-				57366C192B26EED200E8DFD5 /* MemorizeUITestsLaunchTests.swift */,
-			);
-			path = MemorizeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57366C0E2B26EED200E8DFD5 /* MemorizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57366C1A2B26EED200E8DFD5 /* MemorizeUITestsLaunchTests.swift in Sources */,
-				57366C182B26EED200E8DFD5 /* MemorizeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

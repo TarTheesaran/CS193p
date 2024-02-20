@@ -108,9 +108,9 @@
 				571D35422B53AE750087BAB7 /* Pie.swift */,
 				579D39F02B5393BF009C1EBE /* MemoryGame.swift */,
 				579D39F22B53943B009C1EBE /* EmojiMemoryGame.swift */,
+				57570CC42B72839E00738595 /* FlyingNumber.swift */,
 				57366C002B26EED200E8DFD5 /* Assets.xcassets */,
 				57366C022B26EED200E8DFD5 /* Preview Content */,
-				57570CC42B72839E00738595 /* FlyingNumber.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
